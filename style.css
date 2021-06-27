@@ -1,0 +1,26 @@
+.b{
+    border: 2px solid black;
+}
+
+.mt-n1 {
+    margin-top: -30rem !important;
+  }
+
+.z{
+      position: relative;
+      z-index: 100;
+  }
+/* Image classes */
+.blue_block
+{
+    position: relative;
+    z-index: 10;
+    width: 97%;
+}
+.banner_img1
+{
+    position: relative;
+    z-index: 1000;
+  
+
+}
