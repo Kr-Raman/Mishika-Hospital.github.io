@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="animate.css" />
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css">
+    
+
     <title>Doctors</title>
 </head>
 <body>
@@ -40,7 +42,31 @@
                           <h5 class="card-title">Dr.Raman Kumar</h5>
                           <h5 class="card-title">Consultant|Neurology</h5>
                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          
+                          <button type="button" class="btn btn-secondary btn-sm mx-2 " data-bs-toggle="modal" data-bs-target="#mymodal">Know More =></button>
+                          <!-- MODEL -->
+                          <!-- Scrollable modal -->
+                                    <div class="modal fade " id="mymodal">
+                                      <div class="modal-dialog modal-dialog-scrollable" >
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h2>Dr. Raman Kumar</h2>
+                                            
+                                            
+                                            <button class="btn-close" data-bs-dismiss="modal"> </button>
+                                          </div>
+                                          <div class="modal-body">
+                                           <img src="./images/header/me.png" class="img-fluid rounded-start w-50 d-flex justify-content-center" alt="Person_pic">
+                                           <p class="fs-6 ">Consultant|Neurology</p>
+                                           <p class="lead fw-normal"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium excepturi consequuntur deleniti reprehenderit illo nobis nisi rem quaerat deserunt, fuga ullam eaque cum itaque ipsa error, aut aliquam ut debitis eos! Fugit nam cupiditate voluptate maxime praesentium repellat neque officiis laboriosam, magnam voluptatibus mollitia perferendis asperiores debitis corrupti sapiente sequi.</p>
+                                           
+                                         </div>
+                                         <div class="modal-footer">
+                                          <button class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
+                                         </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
                         </div>
                       </div>
                     </div>
@@ -145,5 +171,7 @@
     <script>
       new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./Scripts/bootstrap.js"></script>
 </body>
 </html>
