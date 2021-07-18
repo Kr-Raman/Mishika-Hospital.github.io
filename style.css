@@ -38,55 +38,51 @@
   -ms-transform: translateY(-50%);
   z-index: 10;
 }
-.Alertbar
-{
-    
-    position: fixed;
-   top: 40%;
-  
+.Alertbar {
+  position: fixed;
+  top: 40%;
+
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   z-index: 10;
 }
-.a2
-{
-    text-decoration: none;
-  width: 250px;
+.a2 {
+  text-decoration: none;
+  width: 15.625rem;
   /*  */
-  
-    height: 250px;
+
+  height: 15.625rem;
   background: #f12d2d;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 5px;
-  font-size: 20px;
-  transform: translateX(-170px);
+  padding: 0.3125rem;
+  font-size: 1.25rem;
+  transform: translateX(-10.625rem);
   -webkit-transform: translateX(-13rem);
-  -ms-transform: translateX(-170px);
+  -ms-transform: translateX(-10.625rem);
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
   -ms-transition: all 0.5s linear;
-
 }
 
 .a1 {
   text-decoration: none;
-  width: 210px;
+  width: 13.125rem;
   /*  */
- 
+
   background: #3b5999;
   color: #fff;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 5px;
-  font-size: 20px;
-  transform: translateX(-170px);
-  -webkit-transform: translateX(-170px);
-  -ms-transform: translateX(-170px);
+  padding: 0.3125rem;
+  font-size: 1.25rem;
+  transform: translateX(-10.625rem);
+  -webkit-transform: translateX(-10.625rem);
+  -ms-transform: translateX(-10.625rem);
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
   -ms-transition: all 0.5s linear;
@@ -110,22 +106,20 @@
 .linkedin {
   background: #0077b5;
 }
-.a2 i{
-   color: white;
-    padding-left: 0.5rem;
-  font-size: 30px !important;
+.a2 i {
+  color: white;
+  padding-left: 0.5rem;
+  font-size: 1.875rem !important;
   animation: letszoom 1.5s linear alternate-reverse infinite;
 }
-.orient
-{
-    text-orientation: upright;
-    writing-mode: vertical-rl;
-    font-weight: 600;
+.orient {
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  font-weight: 600;
 }
 .a1 i {
-  
-  padding-left: 20px;
-  font-size: 30px !important;
+  padding-left: 1.25rem;
+  font-size: 1.875rem !important;
   animation: letszoom 3s linear alternate-reverse infinite;
 }
 
@@ -138,10 +132,10 @@
     transform: scale(1);
   }
 }
-.a2:hover{
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
+.a2:hover {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
 }
 .a1:hover {
   transform: translateX(0);
