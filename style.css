@@ -149,3 +149,12 @@
       display: none;
   }
 }
+
+/* **************MAP************** */
+
+@media only screen and (max-width: 1026px) {
+  .maps {
+      width: 24rem;;
+      height: 20rem;;
+  }
+}
