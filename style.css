@@ -146,7 +146,7 @@
 
 @media only screen and (max-width: 1026px) {
   #fadeshow1 {
-      display: none;
+    display: none;
   }
 }
 
@@ -154,7 +154,18 @@
 
 @media only screen and (max-width: 1026px) {
   .maps {
-      width: 24rem;;
-      height: 20rem;;
+    width: 24rem;
+    height: 20rem;
   }
+}
+@media only screen and (max-width: 1026px) {
+  .services_img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.parallax {
+  background: url("./images/floor.jpg") repeat fixed 100%;
+  background-position: center center;
 }
