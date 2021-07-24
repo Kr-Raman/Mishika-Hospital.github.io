@@ -1,6 +1,20 @@
 .b {
   border: 2px solid black;
 }
+.textgolden
+{
+  color:#dcbe5f;
+}
+.backgolden
+{
+  background-color: #dcbe5f;
+}
+.img-size
+{
+  width: 4rem;
+  height: 4rem;
+  filter: invert();
+}
 
 .mt-n1 {
   margin-top: -27rem !important;
