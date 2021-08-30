@@ -1,16 +1,13 @@
 .b {
   border: 2px solid black;
 }
-.textgolden
-{
-  color:#dcbe5f;
+.textgolden {
+  color: #dcbe5f;
 }
-.backgolden
-{
+.backgolden {
   background-color: #dcbe5f;
 }
-.img-size
-{
+.img-size {
   width: 4rem;
   height: 4rem;
   filter: invert();
@@ -182,4 +179,10 @@
 .parallax {
   background: url("./images/floor.jpg") repeat fixed 100%;
   background-position: center center;
+}
+
+/* Mission and Vision  */
+.vision_img {
+  max-width: 50%;
+  height: 400px;
 }
