@@ -1,0 +1,18 @@
+// Import the functions you need from the SDKs you need
+//https://www.geeksforgeeks.org/create-a-website-using-html-css-and-javascript-that-stores-data-in-firebase/
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDkkS0B7fznAzCt4mkG9QhynWWkx0X-eoI",
+  authDomain: "docsite-97f86.firebaseapp.com",
+  projectId: "docsite-97f86",
+  storageBucket: "docsite-97f86.appspot.com",
+  messagingSenderId: "421304878953",
+  appId: "1:421304878953:web:2bfb7a14021781941a5ff8"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
